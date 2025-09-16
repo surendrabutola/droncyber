@@ -101,7 +101,7 @@ class CustomModuleController extends Controller
         $cms_module = CustomModule::with(['customModuleDetail' => function ($query) {
             $query->where('publish', 1);
         }])->where('name', $name)->first();
-        
+        // dd($cms_module);
         return response()->json($cms_module);
     }
     public function getModule($id)

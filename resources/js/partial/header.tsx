@@ -42,32 +42,12 @@ export default function Header() {
                         >
                             Home
                         </Link>
-
-                        {/* About Us Dropdown */}
-                        <div className="relative" onMouseEnter={() => setDesktopDropdown('about')} onMouseLeave={() => setDesktopDropdown(null)}>
-                            <button
-                                className={`flex items-center text-base ${isActive('/pages/about-us') || isActive('/pages/organisation-structure') || isActive('/pages/who-is-who') || isActive('/pages/certuk-committee') ? 'font-semibold text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
-                            >
-                                About us
-                                <ChevronDown className="ml-1 h-4 w-4" />
-                            </button>
-                            {desktopDropdown === 'about' && (
-                                <div className="absolute top-full left-0 z-10 mt-0 w-48 rounded bg-white pt-1 shadow-lg">
-                                    <Link href="/pages/about-us" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                        About us
-                                    </Link>
-                                    <Link href="/pages/organisation-structure" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                        Organisation Structure
-                                    </Link>
-                                    <Link href="/pages/who-is-who" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                        Who’s Who
-                                    </Link>
-                                    <Link href="/pages/certuk-committee" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                                        CERT-UK Committee
-                                    </Link>
-                                </div>
-                            )}
-                        </div>
+                        <Link
+                            href="/pages/about-us"
+                            className={`text-base ${url == '/pages/about-us' ? 'font-semibold text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                        >
+                            About us
+                        </Link>
 
                         {/* Notifications Dropdown */}
                         <div

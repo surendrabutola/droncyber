@@ -55,6 +55,7 @@ class HandleInertiaRequests extends Middleware
                 'captcha',
                 'gallery',
                 'banner',
+                'login',
             ];
 
             // Filter Ziggy routes

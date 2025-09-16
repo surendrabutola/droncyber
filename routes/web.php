@@ -3,7 +3,6 @@
 use App\Http\Controllers\AccordionController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CaptchaController;
-use App\Http\Controllers\CICOController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -56,8 +55,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
     ]);
 
     Route::get('admin/queries', [AdminController::class, 'getContactQueries'])->name('admin.contact');
-    Route::get('admin/ciso-registration', [AdminController::class, 'getCisoRegistration'])->name('admin.ciso.registeration');
-    Route::post('admin/ciso-registration/{id}/handle', [AdminController::class, 'approveRegistration'])->name('admin.ciso.approve');
+   
 
     Route::get('admin/cms/homepage', [CMSController::class, 'getHomepage']);
     Route::post('admin/cms/homepage/{id?}', [CMSController::class, 'setHomepage'])->name('cms.homepage');
@@ -67,11 +65,6 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 Route::get('pages/{url}',[CMSController::class,'getPage'])->name('pages.url');
 Route::get('cmsmodule/{name}', [CustomModuleController::class, 'getCmsModule'])->name('getCmsmodule');
-
-Route::get('ciso-registration', [CICOController::class, 'index'])->name('ciso.register');
-Route::post('ciso-registration', [CICOController::class, 'store'])->name('ciso.register');
-Route::get('ciso-users', [CICOController::class, 'getUsers'])->name('ciso.users');
-Route::get('subdepartments/{id}', [CICOController::class, 'getSubDepartments'])->name('ciso.sub-department');
 
 Route::get('/captcha/{config?}', [CaptchaController::class, 'getCaptcha'])->middleware('throttle:captcha');
 

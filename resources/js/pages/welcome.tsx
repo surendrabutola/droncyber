@@ -19,42 +19,33 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './HeroSlider.css'; // Custom styles for dots
 import useRoute from '@/components/useRoute';
 
-const advisories = [
-    'Phishing Campaign Targeting State Govt Emails – Immediate Action Required',
-    'Outdated VPN Software Vulnerable to Remote Exploit',
-    'Misconfigured Firewalls in Panchayat Portals – Recommendations Issued',
-    'Cyber Espionage Activity Detected in Critical Infrastructure Nodes',
-    'Malware Injected in Third-Party Utility App Used by Urban Local Bodies',
-    'Browser Security Advisory – Patch Outdated Extensions Immediately',
-    'Browser Security Advisory – Patch Outdated Extensions Immediately',
-    'Browser Security Advisory – Patch Outdated Extensions Immediately',
-];
+
 
 
 const infocards = [
     {
         icon: <ShieldCheck className="h-5 w-5" />,
         iconClassName: 'border-red-600 bg-red-100 text-red-600',
-        title: 'Submit a Security Incident',
-        content: 'Report a cyber incident directly to CERT Uttarakhand for rapid action and containment.',
+        title: 'Computer Training',
+        content: 'Learn Basic to Advanced Computer Skills, MS Office, Internet, and Job-Oriented Courses.',
     },
     {
         icon: <FileText className="h-5 w-5" />,
         iconClassName: 'border-green-600 bg-green-100 text-green-600',
-        title: 'Apply for Security Audit',
-        content: 'Request a certified cybersecurity audit through our empaneled vendor system.',
+        title: 'Cyber Cafe Services',
+        content: 'Internet Browsing, Online Form Filling, Printing, Scanning, Photocopy & Lamination.',
     },
     {
         icon: <BookOpen className="h-5 w-5" />,
         iconClassName: 'border-blue-600 bg-blue-100 text-blue-600',
-        title: 'Cybersecurity Awareness',
-        content: 'Browse guides, posters, and videos to build digital safety knowledge.',
+        title: 'Government Certificates',
+        content: 'Aadhaar Update, PAN Card, Voter ID, Birth/Residence/Income Certificates, and More.',
     },
     {
         icon: <Users className="h-5 w-5" />,
         iconClassName: 'border-orange-600 bg-orange-100 text-orange-600',
-        title: 'Change of CISO Request Form',
-        content: 'Submit and verify departmental CISO change requests with supporting documents.',
+        title: 'Digital Payments',
+        content: 'Utility Bills, Mobile Recharge, DTH & Online Applications.',
     },
 ];
 
@@ -100,15 +91,14 @@ export default function Home() {
                         <div className="w-full md:mb-2 lg:mb-0 lg:w-1/2">
                             <p className="mb-2 text-lg font-medium text-yellow-700 lg:text-xl">Quick Access</p>
                             <h2 className="text-2xl leading-tight font-bold text-zinc-800 md:text-5xl">
-                                Access Essential Cyber <br className="hidden sm:block" />
-                                Services at Your Fingertips
+                               Access All Services  <br className="hidden sm:block" />
+                               in One Place
                             </h2>
                         </div>
 
                         {/* Right */}
                         <div className="w-full text-left text-base leading-relaxed text-zinc-500 md:text-xl lg:w-1/2">
-                            Stay proactive and protected. Use these quick links to report incidents, request audits, access awareness resources, or
-                            update departmental cybersecurity leadership — all in one place for your convenience and security.
+                            Stay connected and skilled with our wide range of digital solutions:
                         </div>
                     </div>
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -167,7 +157,7 @@ export default function Home() {
                     <CmsModule name="trainings" className="md:col-span-1" />
                     <CmsModule name="events" className="md:col-span-1" />
                 </section>
-                <Swiper
+                {/* <Swiper
                     modules={[Navigation, Autoplay]}
                     loop={true}
                     autoplay={{ delay: 3000 }}
@@ -188,7 +178,7 @@ export default function Home() {
                             <img src={logo} alt={`logo-${index}`} className="h-[77px] object-contain" />
                         </SwiperSlide>
                     ))}
-                </Swiper>
+                </Swiper> */}
             </div>
         </FrontendLayout>
     );
@@ -212,14 +202,7 @@ const HeroSection = () => {
         fetchBanner();
     }, []);
 
-    const isValidUrl = (url: string) => {
-        try {
-            new URL(url); // just checks valid URL format
-            return true;
-        } catch {
-            return false;
-        }
-    };
+
 
     return (
         <div className="relative">

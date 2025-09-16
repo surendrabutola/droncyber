@@ -82,24 +82,6 @@ class CustomModuleSeeder extends Seeder
                 "form_fields" => json_encode(['name', 'status']),
             ],
             [
-                "name" => "technical-advisories",
-                "title" => "Technical Advisories",
-                "detail" => "Technical threat reports and mitigation procedures",
-                "form_fields" => json_encode(['name', 'status', 'detail']),
-            ],
-            [
-                "name" => "cyber-hygiene",
-                "title" => "General Cyber Hygiene",
-                "detail" => "Best practices for citizens and small enterprises",
-                "form_fields" => json_encode(['name', 'status', 'detail']),
-            ],
-            [
-                "name" => "cybersecurity-tips",
-                "title" => "FAQs & Cybersecurity Tips",
-                "detail" => "",
-                "form_fields" => json_encode(['name', 'status', 'detail']),
-            ],
-            [
                 "name" => "team",
                 "title" => "Meet the CERT UK Team",
                 "detail" => "Our team comprises cybersecurity professionals, incident response experts, forensic analysts, and IT auditors working together to defend the state’s digital landscape.",
