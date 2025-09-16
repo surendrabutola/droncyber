@@ -1,0 +1,8 @@
+*
+!private/
+!public/
+!.gitignore
+!Department.csv
+!sub_department.csv
+!Office.csv
+!CISO_Users.csv

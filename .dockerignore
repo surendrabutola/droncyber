@@ -1,0 +1,14 @@
+node_modules/
+docker/
+.env
+.env.example
+.dockerignore
+public/build/
+vendor/
+deployment/
+
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+public/uploads/*

@@ -1,0 +1,318 @@
+<<<<<<< HEAD
+id,department_id,name
+1,1,Agricultural Production & Marketing Board (Mandi Parishad)
+2,1,Agriculture Department
+3,1,G.B. Pant University Pantnagar
+4,2,Animal Husbandry Department
+5,3,Homeopathy Medical Services
+6,3,Uttarakhand Homeopathic Medicine Board
+7,4,Building And Other Construction Workers Welfare Board
+8,5,Cheif Development Office
+9,6,State Tax Uttarakhand
+10,7,Cooperative Department
+11,8,Tehsil
+12,8,Devprayag Tehsil Tehri
+13,8,Tehsil Balganga Tehsil
+14,8,Tehsil Ghansali
+15,8,Tehsil Narendranagar
+16,8,Tehsil Partapnagar
+17,8,Tehsil Jakhnidhar
+18,8,Tehsil Nainbagh
+19,8,Tehsil Pawkidevi
+20,8,SDM Office Dhanaulti
+21,8,SDM Office Kirtinagar
+22,8,Tehsil Kandisaur
+23,8,Tehsil Kirtinagar
+24,8,Tehsil Gaja
+25,8,Collectorate Tehri
+26,9,Uttarakhand Jal Sansthan
+27,9,Uttarakhand Peyjal Nigam
+28,9,Swajal Department
+29,10,Directorate of School Education
+30,10,Primary Education
+31,10,Secondary Education
+32,11,Skill Development & Employment Department
+33,12,Uttarakhand Electricity Regulatory Commission
+34,12,Power Tranmission Corporation of Uttarakhand Limited(PTCUL)
+35,12,Uttarakhand Power Corporation Limited
+36,13,Budget Directorate
+37,13,Treasury Department
+38,13,Stamps And Registration
+39,13,Goods And Services Tax (Gst)
+40,13,Finance Commission Directorate
+41,13,Directorate Of Audit
+42,14,Fisheries Department
+43,15,Controller Legal Metrology
+44,15,Directorate - Food Civil Supplies and Consumer Affairs Department
+45,15,Food And Civil Supplies
+46,16,Forest Resource Management Project - Office Of The Chief Project Director
+47,16,Office Of The Chief Conservator Of Forests Monitoring Evaluation It & Modernization
+48,17,High Court
+49,17,Service Authority Adr Center High Court Complex Nainital
+50,17,Advocate General Office High Court Campus Nainital
+51,18,Shri Dev Suman University Tehri
+52,18,Government College Nainbagh Tehri Garhwal
+53,18,Dr. P. D. B. Himalayan P.G College Kotdwara
+54,18,Govt. Degree College Margubpur Haridwar
+55,18,S.P.S.S. Govt. Degree College Gangolihat (Pithorgarh)
+56,18,Doon University Dehradun
+57,18,Higher Education Directorate
+58,18,Gopal Babu Goswami Government Degree College Chaukhutia (Almora)
+59,18,Kumaun University Nainital
+60,18,Dharma Uniyal Government College Narendra Nagar Tehri Garhwal.
+61,18,Government Post Graduate College New Tehri Tehri Garhwal.
+62,18,Government Post Graduate College Gopeshwar Chamoli.
+63,18,Government College Munavi Pithoragarh
+64,18,S.S.J. Government Post Graduate College
+65,18,S.B.C.Government Degrec College Pokhri (Quili) Tehri Garhwal
+66,18,Government Degree College Ramgarh (Nainital)
+67,18,Shaheed Mahendrasingh Bhakuni Government College: Dugnakuri (Banlekham) Janpadam Bageshwaram.
+68,18,Bharat Singh Rawat Government College Rikhnikhal
+69,18,R.S. College in Berinag Pithoragarh
+70,18,Maharana Pratap Government Degree College Nanakmatta
+71,18,Rani Dharm Kunwar Government College (Haridwar)
+72,18,Government College Masi (Almora)
+73,18,R.M.P. (P.G.) College Gurukul Narsan (Haridwar)
+74,18,Swami Vivekananda Government Post Graduate College Lohaghat (Champawat)
+75,18,Government Post Graduate College Maldevta Raipur Dehradun
+76,18,Government Post Graduate College Agastyamuni Rudraprayag.
+77,18,Rajkiya Snatkottar Mahavidyalaya Jyotirmath Chamoli Uttrakhand
+78,18,Okaranand Saraswati Government College Devprayag Tehri Garhwal Uttarakhand.
+79,19,Police Headquarters
+80,19,Police Department
+81,19,Home Guards Department
+82,19,Uttarakhand Fire And Emergency Services
+83,19,Uttarakhand Traffic Police
+84,20,Uttarakhand Tea Development Board Almora
+85,20,State Medicinal Plant Board
+86,20,Herbal Research & Development Institute Gopeshwar
+87,21,District Level Development Authorit - Chamolli
+88,21,District Level Development Authorit - Pithorgarh
+89,21,Uttarakhand Housing And Urban Development Authority
+90,21,Mussoorie Dehradun Development Department
+91,21,District Level Development Authority - Almora
+92,22,IIT Roorkee
+93,23,Siidcul (State Industrial Development Corporation Of Uttarakhand Limited)
+94,23,Directorate Of Industries
+95,23,Micro Small & Medium Enterprises (Msme)
+96,23,Government Printing Press Uttarakhand Roorkee
+97,24,Information & Public Relations Department
+98,25,Labour Department
+99,25,Factory & Boiler Department Uttarakhand
+100,26,Uttarakhand Language Institute Dehradun
+101,27,Doon Medical College
+102,28,National Health Mission
+103,29,Minor Irrigation Department
+104,30,Nainital Bank
+105,31,Office of the Chief Electoral Officer Uttarakhand
+106,32,Personnel & Public Vigilance Department
+107,32,Directorate of Vigilance Superintendent Uttarakhand
+108,32,Uttarakhand Public Service Commission
+109,33,Economics & Statistics Directorate
+110,33,State Planning Commission
+111,34,Public Works Department
+112,35,Raj Bhavan
+113,36,Revenue Department
+114,37,Rural Development Pauri
+115,37,Rural Works Department
+116,38,Uttarakhand Ex-Servicemen Welfare Corporation
+117,38,Soldier Welfare Department
+118,39,Directorate Of Sanskrit Education
+119,39,Uttarakhand Sanskrit Academy Haridwar
+120,40,Uttarakhand State Council For Science & Technology
+121,41,Secretariat Administration
+122,42,Sericulture Department
+123,43,Social Welfare
+124,43,Tribal Welfare Department
+125,44,Sports Department
+126,45,State Election Commission
+127,46,State Water And Sanitation Mission
+128,47,Uttarakhand Cooperative Sugar Mills Federation Limited
+129,48,Nanhi Pari Border Technology Institute Pithoragarh
+130,48,Women’S Institute Of Technology Dehradun
+131,48,Veer Madho Singh Bhandari Uttarakhand Technical University
+132,48,Uttarakhand Council of Technical Education Roorkee (Haridwar) - Institute of Research Development & Training
+133,48,Uttarakhand Technical Education Council
+134,48,Technical Education Directorate
+135,48,Uttarakhand Council of Technical Education Roorkee (Haridwar) - Uttarakhand Technical Education Council
+136,48,G.B. Pant Institute Of Engineering & Technology Ghurdauri
+137,48,Thdc Hydro Power Engineering & Technology Institute Tehri
+138,49,Kumaon Mandal Vikas Nigam
+139,49,Tourism Department
+140,49,Garhwal Mandal Vikas Nigam
+141,50,Town And Village Planning Department
+142,51,Training Department
+143,52,Uttarakhand Transport Corporation
+144,52,Office Of The Transport Commissioner
+145,53,Nagar Panchayat Swargashram Jong
+146,53,Nagar Palika Parishad Berinag
+147,53,Nagar Panchayat Dineshpur
+148,53,Nagar Panchayat Bhagwanpur
+149,53,Nagar Palika Parishad Doiwala
+150,53,Municipal Corporation Rudrapur
+151,53,Nagar Palika Parishad Manglaur
+152,53,Urban Development Directorate
+153,54,Uttarakhand Gramin Bank
+154,55,Uttarakhand Judicial And Legal Academy
+155,56,Watershed Management
+156,57,Women & Child Development Department
+=======
+id,department_id,name
+1,1,Agricultural Production & Marketing Board (Mandi Parishad)
+2,1,Agriculture Department
+3,1,G.B. Pant University Pantnagar
+4,2,Animal Husbandry Department
+5,3,Homeopathy Medical Services
+6,3,Uttarakhand Homeopathic Medicine Board
+7,4,Building And Other Construction Workers Welfare Board
+8,5,Cheif Development Office
+9,6,State Tax Uttarakhand
+10,7,Cooperative Department
+11,8,Tehsil
+12,8,Devprayag Tehsil Tehri
+13,8,Tehsil Balganga Tehsil
+14,8,Tehsil Ghansali
+15,8,Tehsil Narendranagar
+16,8,Tehsil Partapnagar
+17,8,Tehsil Jakhnidhar
+18,8,Tehsil Nainbagh
+19,8,Tehsil Pawkidevi
+20,8,SDM Office Dhanaulti
+21,8,SDM Office Kirtinagar
+22,8,Tehsil Kandisaur
+23,8,Tehsil Kirtinagar
+24,8,Tehsil Gaja
+25,8,Collectorate Tehri
+26,9,Uttarakhand Jal Sansthan
+27,9,Uttarakhand Peyjal Nigam
+28,9,Swajal Department
+29,10,Directorate of School Education
+30,10,Primary Education
+31,10,Secondary Education
+32,11,Skill Development & Employment Department
+33,12,Uttarakhand Electricity Regulatory Commission
+34,12,Power Tranmission Corporation of Uttarakhand Limited(PTCUL)
+35,12,Uttarakhand Power Corporation Limited
+36,13,Budget Directorate
+37,13,Treasury Department
+38,13,Stamps And Registration
+39,13,Goods And Services Tax (Gst)
+40,13,Finance Commission Directorate
+41,13,Directorate Of Audit
+42,14,Fisheries Department
+43,15,Controller Legal Metrology
+44,15,Directorate - Food Civil Supplies and Consumer Affairs Department
+45,15,Food And Civil Supplies
+46,16,Forest Resource Management Project - Office Of The Chief Project Director
+47,16,Office Of The Chief Conservator Of Forests Monitoring Evaluation It & Modernization
+48,17,High Court
+49,17,Service Authority Adr Center High Court Complex Nainital
+50,17,Advocate General Office High Court Campus Nainital
+51,18,Shri Dev Suman University Tehri
+52,18,Government College Nainbagh Tehri Garhwal
+53,18,Dr. P. D. B. Himalayan P.G College Kotdwara
+54,18,Govt. Degree College Margubpur Haridwar
+55,18,S.P.S.S. Govt. Degree College Gangolihat (Pithorgarh)
+56,18,Doon University Dehradun
+57,18,Higher Education Directorate
+58,18,Gopal Babu Goswami Government Degree College Chaukhutia (Almora)
+59,18,Kumaun University Nainital
+60,18,Dharma Uniyal Government College Narendra Nagar Tehri Garhwal.
+61,18,Government Post Graduate College New Tehri Tehri Garhwal.
+62,18,Government Post Graduate College Gopeshwar Chamoli.
+63,18,Government College Munavi Pithoragarh
+64,18,S.S.J. Government Post Graduate College
+65,18,S.B.C.Government Degrec College Pokhri (Quili) Tehri Garhwal
+66,18,Government Degree College Ramgarh (Nainital)
+67,18,Shaheed Mahendrasingh Bhakuni Government College: Dugnakuri (Banlekham) Janpadam Bageshwaram.
+68,18,Bharat Singh Rawat Government College Rikhnikhal
+69,18,R.S. College in Berinag Pithoragarh
+70,18,Maharana Pratap Government Degree College Nanakmatta
+71,18,Rani Dharm Kunwar Government College (Haridwar)
+72,18,Government College Masi (Almora)
+73,18,R.M.P. (P.G.) College Gurukul Narsan (Haridwar)
+74,18,Swami Vivekananda Government Post Graduate College Lohaghat (Champawat)
+75,18,Government Post Graduate College Maldevta Raipur Dehradun
+76,18,Government Post Graduate College Agastyamuni Rudraprayag.
+77,18,Rajkiya Snatkottar Mahavidyalaya Jyotirmath Chamoli Uttrakhand
+78,18,Okaranand Saraswati Government College Devprayag Tehri Garhwal Uttarakhand.
+79,19,Police Headquarters
+80,19,Police Department
+81,19,Home Guards Department
+82,19,Uttarakhand Fire And Emergency Services
+83,19,Uttarakhand Traffic Police
+84,20,Uttarakhand Tea Development Board Almora
+85,20,State Medicinal Plant Board
+86,20,Herbal Research & Development Institute Gopeshwar
+87,21,District Level Development Authorit - Chamolli
+88,21,District Level Development Authorit - Pithorgarh
+89,21,Uttarakhand Housing And Urban Development Authority
+90,21,Mussoorie Dehradun Development Department
+91,21,District Level Development Authority - Almora
+92,22,IIT Roorkee
+93,23,Siidcul (State Industrial Development Corporation Of Uttarakhand Limited)
+94,23,Directorate Of Industries
+95,23,Micro Small & Medium Enterprises (Msme)
+96,23,Government Printing Press Uttarakhand Roorkee
+97,24,Information & Public Relations Department
+98,25,Labour Department
+99,25,Factory & Boiler Department Uttarakhand
+100,26,Uttarakhand Language Institute Dehradun
+101,27,Doon Medical College
+102,28,National Health Mission
+103,29,Minor Irrigation Department
+104,30,Nainital Bank
+105,31,Office of the Chief Electoral Officer Uttarakhand
+106,32,Personnel & Public Vigilance Department
+107,32,Directorate of Vigilance Superintendent Uttarakhand
+108,32,Uttarakhand Public Service Commission
+109,33,Economics & Statistics Directorate
+110,33,State Planning Commission
+111,34,Public Works Department
+112,35,Raj Bhavan
+113,36,Revenue Department
+114,37,Rural Development Pauri
+115,37,Rural Works Department
+116,38,Uttarakhand Ex-Servicemen Welfare Corporation
+117,38,Soldier Welfare Department
+118,39,Directorate Of Sanskrit Education
+119,39,Uttarakhand Sanskrit Academy Haridwar
+120,40,Uttarakhand State Council For Science & Technology
+121,41,Secretariat Administration
+122,42,Sericulture Department
+123,43,Social Welfare
+124,43,Tribal Welfare Department
+125,44,Sports Department
+126,45,State Election Commission
+127,46,State Water And Sanitation Mission
+128,47,Uttarakhand Cooperative Sugar Mills Federation Limited
+129,48,Nanhi Pari Border Technology Institute Pithoragarh
+130,48,Women’S Institute Of Technology Dehradun
+131,48,Veer Madho Singh Bhandari Uttarakhand Technical University
+132,48,Uttarakhand Council of Technical Education Roorkee (Haridwar) - Institute of Research Development & Training
+133,48,Uttarakhand Technical Education Council
+134,48,Technical Education Directorate
+135,48,Uttarakhand Council of Technical Education Roorkee (Haridwar) - Uttarakhand Technical Education Council
+136,48,G.B. Pant Institute Of Engineering & Technology Ghurdauri
+137,48,Thdc Hydro Power Engineering & Technology Institute Tehri
+138,49,Kumaon Mandal Vikas Nigam
+139,49,Tourism Department
+140,49,Garhwal Mandal Vikas Nigam
+141,50,Town And Village Planning Department
+142,51,Training Department
+143,52,Uttarakhand Transport Corporation
+144,52,Office Of The Transport Commissioner
+145,53,Nagar Panchayat Swargashram Jong
+146,53,Nagar Palika Parishad Berinag
+147,53,Nagar Panchayat Dineshpur
+148,53,Nagar Panchayat Bhagwanpur
+149,53,Nagar Palika Parishad Doiwala
+150,53,Municipal Corporation Rudrapur
+151,53,Nagar Palika Parishad Manglaur
+152,53,Urban Development Directorate
+153,54,Uttarakhand Gramin Bank
+154,55,Uttarakhand Judicial And Legal Academy
+155,56,Watershed Management
+156,57,Women & Child Development Department
+>>>>>>> f34d9d8b6993e4c4bac7ac0493af30703adfbcbd
+157,57,Women Welfare

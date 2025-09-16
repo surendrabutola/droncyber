@@ -1,0 +1,31 @@
+/* HeroSlider.css */
+.custom-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  width: 24px;
+  opacity: 1;
+  background-color: white;
+}
+
+.custom-pagination1 .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: white;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination1 .swiper-pagination-bullet-active {
+  width: 24px;
+  opacity: 1;
+  background-color: white;
+}
+
