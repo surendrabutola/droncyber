@@ -153,7 +153,7 @@ export default function Home() {
                     </Swiper>
                 </section>
                 <section className="grid grid-cols-1 gap-6 px-2 py-14 md:grid-cols-3">
-                    <CmsModule name="advisories" className="md:col-span-1" />
+                    <CmsModule name="notification" className="md:col-span-1" />
                     <CmsModule name="trainings" className="md:col-span-1" />
                     <CmsModule name="events" className="md:col-span-1" />
                 </section>

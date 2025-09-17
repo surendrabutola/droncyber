@@ -16,8 +16,8 @@ class CustomModuleSeeder extends Seeder
         CustomModule::truncate();
         $pages = [
             [
-                "name" => "advisories",
-                "title" => "Ongoing Advisories",
+                "name" => "events",
+                "title" => "Ongoing Events",
                 "detail" => " ",
                 "form_fields" => json_encode(['name', 'status']),
             ],
@@ -39,12 +39,7 @@ class CustomModuleSeeder extends Seeder
                 "detail" => "",
                 "form_fields" => json_encode(['name', 'email', 'designation', 'image']),
             ],
-            [
-                "name" => "calendar",
-                "title" => "Event's Calendar",
-                "detail" => "",
-                "form_fields" => json_encode(['name', 'status']),
-            ],
+            
             [
                 "name" => "archives",
                 "title" => "Archives",
@@ -65,7 +60,7 @@ class CustomModuleSeeder extends Seeder
             ],
             [
                 "name" => "alerts",
-                "title" => "Security Alerts",
+                "title" => " Alerts",
                 "detail" => "",
                 "form_fields" => json_encode(['name', 'status']),
             ],
@@ -76,15 +71,9 @@ class CustomModuleSeeder extends Seeder
                 "form_fields" => json_encode(['name', 'status']),
             ],
             [
-                "name" => "bulletins",
-                "title" => "Scheduled System Maintenance / Technical Bulletins",
-                "detail" => "",
-                "form_fields" => json_encode(['name', 'status']),
-            ],
-            [
                 "name" => "team",
-                "title" => "Meet the CERT UK Team",
-                "detail" => "Our team comprises cybersecurity professionals, incident response experts, forensic analysts, and IT auditors working together to defend the state’s digital landscape.",
+                "title" => "Meet the Droncyber Team",
+                "detail" => "Our team brings together skilled trainers, IT experts, and support staff dedicated to providing quality computer education, reliable cyber café services, and seamless government certificate assistance.",
                 "form_fields" => json_encode(['name', 'designation', 'detail', 'image']),
             ],
         ];

@@ -105,32 +105,9 @@ export default function Header() {
                     <Link href="/" className="block text-yellow-600">
                         Home
                     </Link>
-
-                    {/* Mobile About Us */}
-                    <div>
-                        <button
-                            onClick={() => toggleMobileDropdown('about')}
-                            className="flex w-full justify-between text-gray-700 hover:text-yellow-600"
-                        >
-                            About us
-                            <ChevronDown className="h-4 w-4" />
-                        </button>
-                        {mobileDropdown === 'about' && (
-                            <div className="mt-1 ml-4 space-y-1">
-                                <Link href="/pages/about-us" className="block text-gray-600">
-                                    About us
-                                </Link>
-                                <Link href="/pages/about-us" className="block text-gray-600">
-                                    Organisation Structure
-                                </Link>
-                                <Link href="/pages/who-is-who" className="block text-gray-600">
-                                    Who’s Who
-                                </Link><Link href="/pages/certuk-committee" className="block text-gray-600">
-                                    CERT-UK Committee
-                                </Link>
-                            </div>
-                        )}
-                    </div>
+                    <Link href="/pages/about-us" className="block text-yellow-600">
+                        About Us
+                    </Link>
 
                     {/* Mobile Notifications */}
                     <div>
@@ -152,9 +129,7 @@ export default function Header() {
                                 <Link href="/pages/events" className="block text-gray-600">
                                     Events & Gallery
                                 </Link>
-                                <Link href="/pages/resources" className="block text-gray-600">
-                                    Resources
-                                </Link>
+                              
                             </div>
                         )}
                     </div>
@@ -162,31 +137,6 @@ export default function Header() {
                     <Link href="/pages/services" className="block text-gray-700">
                         Services
                     </Link>
-
-                    {/* Mobile Notifications */}
-                    <div>
-                        <button
-                            onClick={() => toggleMobileDropdown('ciso_user')}
-                            className="flex w-full justify-between text-gray-700 hover:text-yellow-600"
-                        >
-                            CISO
-                            <ChevronDown className="h-4 w-4" />
-                        </button>
-                        {mobileDropdown === 'ciso_user' && (
-                            <div className="mt-1 ml-4 space-y-1">
-                                <Link href="/pages/ciso-guidelines" className="block text-gray-600">
-                                    Appointment & Guidelines
-                                </Link>
-                                <Link href="/ciso-registration" className="block text-gray-600">
-                                    CISO Registration
-                                </Link>
-                                <Link href="/ciso-users" className="block text-gray-600">
-                                    Find CISO
-                                </Link>
-                            </div>
-                        )}
-                    </div>
-
                     <Link href={route('contactus')} className="block text-gray-700">
                         Contact us
                     </Link>

@@ -188,19 +188,19 @@ export default function ContactPage() {
                         <div className="space-y-4 rounded-xl bg-gray-100 p-6 shadow-md">
                             <div>
                                 <strong className="text-lg text-zinc-700">Email ID</strong>
-                                <p className="text-slate-600">helpdesk-soc-itda[at]ukgovernment[dot]in</p>
+                                <p className="text-slate-600">satendrarawat325[at]gmail[dot]com</p>
                             </div>
                             <div>
                                 <strong className="text-lg text-zinc-700">Office Address</strong>
                                 <p className="text-slate-600">
-                                    4 Subash Road, Uttarakhand Secretariat, Fourth Floor
+                                  Dron Cyber Cafe, Upper Bajar,
                                     <br />
-                                    New Building, Dehradun, Uttarakhand Pin Code – 248001
+                                    near Indian Overseas Bank, Joshimath, Uttarakhand Pin Code – 246443
                                 </p>
                             </div>
                             <div>
                                 <strong className="text-lg text-zinc-700">WhatsApp Contact Number</strong>
-                                <p className="text-slate-600">+91-9412054548</p>
+                                <p className="text-slate-600">+91 9452603441</p>
                                 <p className="text-slate-600">(For Services related queries, kindly contact on above given contact numbers)</p>
                             </div>
                         </div>
@@ -209,7 +209,7 @@ export default function ContactPage() {
                             <iframe
                                 title="office-location"
                                 className="h-full w-full"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6887.460388758286!2d78.05352002124019!3d30.33019134271595!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c5011ee42f%3A0xc4e71b83af0bf1!2sUttaranchal%20Secretariat%2C%20Irigation%20Colony%2C%20Karanpur%2C%20Dehradun%2C%20Uttarakhand%20248001!5e0!3m2!1sen!2sin!4v1752837595001!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d834.485417439356!2d79.56086715806444!3d30.556347939431216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a79da6e7f6f5c1%3A0x58f765bdd4a80135!2sDron%20Cyber%20cafe!5e0!3m2!1sen!2sin!4v1758086557795!5m2!1sen!2sin"
                                 loading="lazy"
                                 allowFullScreen
                                 referrerPolicy="no-referrer-when-downgrade"
