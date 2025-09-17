@@ -31,20 +31,15 @@ class CmsPageSeeder extends Seeder
                 'url' => 'about-us',
                 'content' => '<div class="grid md:grid-cols-3 gap-10 items-center">
                                 <div class="col-span-2">
-                                    <h2 class="text-3xl font-bold mb-4 text-zinc-800">Mandate &amp; Objectives</h2>
-                                    <p class="text-slate-600 text-xl  mb-6">CERT Uttarakhand (Cyber Emergency Response
-                                        Team – Uttarakhand) serves as the state`s dedicated cybersecurity coordination
-                                        body, operating under the guidance of national cybersecurity frameworks. Our
-                                        primary mandate is to safeguard the digital assets and information
-                                        infrastructure of public institutions, government departments, and citizens
-                                        across the state.</p>
-                                    <h2 class="text-2xl font-bold mb-4 text-zinc-800">Our core objectives include:
+                                    <h2 class="text-3xl font-bold mb-4 text-zinc-800">Our Mission & Purpose</h2>
+                                    <p class="text-slate-600 text-xl  mb-6">At Droncyber, we aim to bridge the digital gap by offering quality computer training, reliable cyber café services, and quick assistance with government-related certificates. Our mission is to empower students, professionals, and local citizens with digital skills while ensuring easy access to essential online services.</p>
+                                    <h2 class="text-2xl font-bold mb-4 text-zinc-800">Our Core Objectives Include:
                                     </h2>
                                     <ul class="list-disc list-inside space-y-2 text-slate-600 text-lg  ">
-                                        <li>Coordinating responses to cybersecurity incidents and threats.</li>
-                                        <li> Facilitating communication between state and national cyber-agencies.</li>
-                                        <li> Enhancing preparedness of public institutions.</li>
-                                        <li>Promoting cyber hygiene awareness.</li>
+                                        <li>Providing affordable and practical computer education for all age groups.</li>
+                                        <li> Offering fast and secure cyber café services like printing, scanning, and browsing.</li>
+                                        <li> Assisting citizens with government-related certificates and online applications.</li>
+                                        <li>Promoting digital awareness and computer literacy in our community.</li>
                                     </ul>
                                 </div>
                                 <div class="flex justify-end"><img src="/images/aboutus.png" alt="Cyber Security">
@@ -53,224 +48,118 @@ class CmsPageSeeder extends Seeder
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div class="p-6 border-yellow-400 border-2 border-dashed rounded-lg bg-yellow-50">
                                     <h3 class="text-xl font-bold mb-2 text-zinc-800">Vision &amp; Mission</h3>
-                                    <p class="text-slate-600 text-base">To build a cyber-resilient Uttarakhand that is
-                                        secure, informed, and digitally empowered.</p>
+                                    <p class="text-slate-600 text-base">Our vision is to create a digitally empowered society where everyone has the skills and resources to succeed in today’s technology-driven world.</p>
                                     <ul class="list-disc list-inside space-y-2 text-slate-600 text-base  ">
-                                        <li>Coordinating responses to cybersecurity incidents and threats.
+                                        <li>Delivering high-quality computer training programs.
                                         </li>
-                                        <li>Facilitating communication between state and national cyber-agencies.
+                                        <li>Ensuring transparent, affordable, and reliable online services.
                                         </li>
-                                        <li>Enhancing preparedness of public institutions.
+                                        <li>Supporting students and job seekers with practical IT knowledge.
                                         </li>
-                                        <li>Promoting cyber hygiene awareness.</li>
+                                        <li>Helping citizens save time and effort through hassle-free certificate services.</li>
                                     </ul>
                                 </div>
                                 <div class="p-6 border-yellow-400 border-2 border-dashed rounded-lg bg-yellow-50">
-                                    <h3 class="text-xl font-bold mb-2 text-zinc-800">Organizational Structure</h3>
-                                    <p class="text-slate-600 text-base">The organizational structure of CERT
-                                        Uttarakhand is designed for swift decision-making and effective cyber incident
-                                        response. It includes a coordinated hierarchy of technical officers,
-                                        cybersecurity analysts, and senior leadership. This structure ensures seamless
-                                        communication between state departments, rapid threat mitigation, and
-                                        efficient execution of awareness, audit, and policy initiatives across
-                                        Uttarakhand`s digital landscape.</p>
-                                     <p class="mt-4"><a target="_blank" rel="noopener noreferrer nofollow"
-                                        class="border-2 rounded-lg px-4 py-2 text-yellow-600 bg-yellow-100"
-                                        href="#">Organizational Structure</a>
-                                    </p>
+                                    <h3 class="text-xl font-bold mb-2 text-zinc-800">Who We Are</h3>
+                                    <p class="text-slate-600 text-base">Droncyber is more than just a training center or a cyber café – we are a trusted partner in your digital journey. With a focus on customer satisfaction and community development, we combine modern learning methods with professional support to make technology simple, accessible, and useful for everyone.</p>
+                                    
                                 </div>
                             </div>',
             ],
+           
             [
-                'title' => 'Advisories',
-                'url' => 'advisories',
-                'content' => '<div class="mb-12">
-                                <h2 class="text-3xl font-bold text-zinc-800 ">Stay Updated. Stay Secure.</h2>
-                                <p class="text-slate-600 text-lg">Get real-time notifications, critical alerts, and
-                                    important policy updates from CERT Uttarakhand. Whether you`re an IT officer, a
-                                    public user, or a cybersecurity stakeholder, this section ensures you`re always
-                                    informed about potential threats, official releases, and scheduled system updates.
-                                </p>
-                            </div>',
-            ],
-            [
-                'title' => 'Cybersecurity Services & Learning',
+                'title' => 'Services & Learning',
                 'url' => 'services',
-                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Cybersecurity Services &amp;
-                                    Learning</h2>
-                                <p class="text-zinc-600 text-sm md:text-base w-full">CERT Uttarakhand offers a full
-                                    range of cybersecurity services—from incident response and forensic investigation to
-                                    security audits and digital learning resources. Whether you`re a government
-                                    department, IT officer, or an individual user, our services are designed to protect,
-                                    educate, and empower the digital community of Uttarakhand.</p>
-                                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-12 gap-6">
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-pink-100 text-pink-600 fas fa-magnifying-glass w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Incident Investigation</h3>
-                                        <p class="text-sm text-gray-600">Investigate, analyze, and resolve cyber incidents
-                                            swiftly with expert digital forensics and response support services.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-green-100 text-green-600 fas fa-shield-halved w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Threat Recovery</h3>
-                                        <p class="text-sm text-gray-600">Rapid containment and recovery solutions to
-                                            minimize cyber incident impact and restore normal operations securely.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-blue-100 text-blue-600 fas fa-clipboard-list w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Vendor Audits</h3>
-                                        <p class="text-sm text-gray-600">Independent cybersecurity assessments by
-                                            CERT-approved vendors to ensure system integrity and risk compliance
-                                            statewide.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-orange-100 text-orange-600 fas fa-clipboard-list w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Standards Compliance</h3>
-                                        <p class="text-sm text-gray-600">Assess systems for compliance with government
-                                            cybersecurity policies, frameworks, and security benchmarks.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-sky-100 text-sky-600 fas fa-file-lines w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">LMS Access</h3>
-                                        <p class="text-sm text-gray-600">Connect to national e-learning platforms for
-                                            certified cybersecurity courses, training modules, and self-paced learning.
-                                        </p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-fuchsia-100 text-fuchsia-600 fas  fa-building w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Training Request</h3>
-                                        <p class="text-sm text-gray-600">Submit an online request for customized
-                                            cybersecurity seminars or workshops for your department or organization.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-cyan-100 text-cyan-600 fas fa-calendar-check w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Event Gallery</h3>
-                                        <p class="text-sm text-gray-600">Explore photos and videos from past cybersecurity
-                                            events, workshops, awareness campaigns, and training programs.</p>
-                                    </div>
-                                </div>',
-            ],
-            [
-                'title' => 'Resources',
-                'url' => 'resources',
-                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Cyber Resources</h2>
-                                <p class="text-zinc-600 text-base mb-10 w-full">Whether you`re a citizen, a public
-                                    official, or an IT administrator, our categorized tips and FAQs are designed to
-                                    improve awareness and reduce everyday cyber risks.</p>
-                                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-pink-100 text-pink-600 fas fa-magnifying-glass w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Incident Investigation</h3>
-                                        <p class="text-sm text-gray-600">Investigate, analyze, and resolve cyber incidents
-                                            swiftly with expert digital forensics and response support services.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-green-100 text-green-600 fas fa-shield-halved w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Threat Recovery</h3>
-                                        <p class="text-sm text-gray-600">Rapid containment and recovery solutions to
-                                            minimize cyber incident impact and restore normal operations securely.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-blue-100 text-blue-600 fas fa-clipboard-list w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Vendor Audits</h3>
-                                        <p class="text-sm text-gray-600">Independent cybersecurity assessments by
-                                            CERT-approved vendors to ensure system integrity and risk compliance
-                                            statewide.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-orange-100 text-orange-600 fas fa-clipboard-list w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Standards Compliance</h3>
-                                        <p class="text-sm text-gray-600">Assess systems for compliance with government
-                                            cybersecurity policies, frameworks, and security benchmarks.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-sky-100 text-sky-600 fas fa-file-lines w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">LMS Access</h3>
-                                        <p class="text-sm text-gray-600">Connect to national e-learning platforms for
-                                            certified cybersecurity courses, training modules, and self-paced learning.
-                                        </p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-fuchsia-100 text-fuchsia-600 fas  fa-building w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Training Request</h3>
-                                        <p class="text-sm text-gray-600">Submit an online request for customized
-                                            cybersecurity seminars or workshops for your department or organization.</p>
-                                    </div>
-                                    <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
-                                        <div class=" flex item-center mb-6">
-                                            <div
-                                                class="rounded-full p-2 bg-cyan-100 text-cyan-600 fas fa-calendar-check w-12 h-12 text-4xl">
-                                            </div>
-                                        </div>
-                                        <h3 class="text-md font-semibold mb-2">Event Gallery</h3>
-                                        <p class="text-sm text-gray-600">Explore photos and videos from past cybersecurity
-                                            events, workshops, awareness campaigns, and training programs.</p>
-                                    </div>
-                                </div>',
+                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Our Services &amp;
+                        Learning Programs</h2>
+                    <p class="text-zinc-600 text-sm md:text-base w-full">At [Your Business Name], we provide a complete
+                        range of digital services—from professional computer training and internet access to
+                        government-related certificate assistance. Whether you`re a student, job seeker, or citizen,
+                        our services are designed to educate, support, and simplify your digital journey.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 my-12 gap-6">
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-pink-100 text-pink-600 fas fa-desktop w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Computer Training</h3>
+                            <p class="text-sm text-gray-600">Learn basic to advanced computer skills including MS
+                                Office, Internet, Tally, and more with experienced trainers.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-green-100 text-green-600 fas fa-wifi w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Cyber Café Services</h3>
+                            <p class="text-sm text-gray-600">High-speed internet browsing, printing, scanning,
+                                photocopy, and email services—all under one roof.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-blue-100 text-blue-600 fas fa-id-card w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Government Certificates</h3>
+                            <p class="text-sm text-gray-600">Assistance for PAN, Aadhaar updates, Income, Caste,
+                                Residence certificates, Voter ID, and more.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-orange-100 text-orange-600 fas fa-chalkboard-teacher w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Workshops & Training</h3>
+                            <p class="text-sm text-gray-600">Regular skill development workshops and special
+                                computer awareness programs for students and professionals.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-sky-100 text-sky-600 fas fa-book-open w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">E-Learning Support</h3>
+                            <p class="text-sm text-gray-600">Access digital learning platforms, online exam forms,
+                                and practice modules to enhance your skills.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-fuchsia-100 text-fuchsia-600 fas fa-headset w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Customer Support</h3>
+                            <p class="text-sm text-gray-600">Friendly guidance for filling government forms,
+                                applying for certificates, and resolving digital service issues.</p>
+                        </div>
+                        <div class="bg-white border rounded-xl shadow-sm p-5 hover:shadow-md transition">
+                            <div class=" flex item-center mb-6">
+                                <div
+                                    class="rounded-full p-2 bg-cyan-100 text-cyan-600 fas fa-calendar-alt w-12 h-12 text-4xl">
+                                </div>
+                            </div>
+                            <h3 class="text-md font-semibold mb-2">Events & Batches</h3>
+                            <p class="text-sm text-gray-600">Stay updated about new training batches, workshops,
+                                government deadlines, and community events.</p>
+                        </div>
+                    </div>',
             ],
             [
                 'title' => 'Events',
                 'url' => 'events',
-                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Cybersecurity in Action</h2>
-                            <p class="text-zinc-600 text-base mb-10 w-full">Explore CERT Uttarakhand’s events, from hands-on training and live drills to state-level conferences and awareness campaigns.</p>',
+                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Learning & Digital Services in Action</h2>
+                            <p class="text-zinc-600 text-base mb-10 w-full">At Droncyber, we regularly host events to support both students and citizens. From computer training workshops and skill development sessions to awareness drives about online services and government certificate guidance, our events are designed to make technology more accessible and useful for everyone.</p>',
             ],
             [
                 'title' => 'Notification & Updates',
                 'url' => 'notification-updates',
-                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Stay Updated. Stay Secure.</h2>
-                            <p class="text-zinc-600 text-base mb-10 w-full">Get real-time notifications, critical alerts, and important policy updates from CERT Uttarakhand. Whether you`re an IT officer, a public user, or a cybersecurity stakeholder, this section ensures you`re always informed about potential threats, official releases, and scheduled system updates.</p>',
+                'content' => '<h2 class="text-2xl md:text-3xl font-bold text-zinc-800 mb-4">Stay Informed. Stay Ahead.</h2>
+                            <p class="text-zinc-600 text-base mb-10 w-full">Keep track of the latest announcements, training schedules, and service updates from Droncyber. Whether you’re a student, a job seeker, or a citizen availing government-related services, this section keeps you updated with important news, new course launches, certificate application deadlines, and cyber café service alerts.</p>',
             ],
             [
                 'title' => 'Teams',
@@ -330,205 +219,6 @@ class CmsPageSeeder extends Seeder
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="max-w-full mx-auto bg-white shadow rounded-lg mb-10">
-                                    <div class="border-b px-6 py-4">
-                                        <h2 class="text-2xl  font-semibold text-gray-800">UK CERT Team</h2>
-                                    </div>
-                                    <div class="overflow-x-auto">
-                                        <table class="min-w-full table-auto" style="width: 0px;">
-                                            <colgroup></colgroup>
-                                            <tbody>
-                                                <tr>
-                                                    <th class="px-4 py-3 text-left">
-                                                        <p>S. No.</p>
-                                                    </th>
-                                                    <th class="px-4 py-3 text-left">
-                                                        <p>Department</p>
-                                                    </th>
-                                                    <th class="px-4 py-3 text-left">
-                                                        <p>Sub-Department</p>
-                                                    </th>
-                                                    <th class="px-4 py-3 text-left">
-                                                        <p>Name</p>
-                                                    </th>
-                                                    <th class="px-4 py-3 text-left">
-                                                        <p>Designation</p>
-                                                    </th>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>1</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>PWD</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>PWD - Sub</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Rohit Singh</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Senior Manager</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>2</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>DEV</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>DEV - Lead</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Aisha Patel</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Team Lead</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>3</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>DES</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>DES - Junior</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Michael Brown</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Junior Designer</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>4</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>QA</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>QA - Senior</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Linda Wong</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Senior Tester</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>5</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>MKT</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>MKT - Coordinator</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>David Lee</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Marketing Coordinator</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>6</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>HR</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>HR - Specialist</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Emily Davis</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>HR Specialist</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>7</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>SALES</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>SALES - Manager</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>James Smith</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Sales Manager</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>8</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>FIN</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>FIN - Analyst</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Oliver Johnson</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Financial Analyst</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>9</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>OPS</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>OPS - Supervisor</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Sophia Martinez</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Operations Supervisor</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="border-t">
-                                                    <td class="px-4 py-3">
-                                                        <p>10</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>PR</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>PR - Executive</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Isabella Garcia</p>
-                                                    </td>
-                                                    <td class="px-4 py-3">
-                                                        <p>Public Relations Executive</p>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
                                     </div>
                                 </div>',
             ],

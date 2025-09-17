@@ -81,8 +81,13 @@ export default function Home() {
     }, []);
 
     return (
-        <FrontendLayout>
-            <Head title="Home" />
+        <FrontendLayout  
+            meta={{
+                title: "Home Page",
+                description: "This is the home page of my Laravel + React app",
+                keywords: "home, laravel, react, inertia",
+            }}
+        >
             <HeroSection></HeroSection>
             <div className="flex flex-col gap-5 px-10 py-4 md:px-20 md:py-8">
                 <section className="px-2 py-10">
