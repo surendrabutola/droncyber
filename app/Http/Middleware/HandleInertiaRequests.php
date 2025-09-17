@@ -39,6 +39,7 @@ class HandleInertiaRequests extends Middleware
     {
         [$message, $author] = str(Inspiring::quotes()->random())->explode('-');
          $ziggy = (new Ziggy)->toArray();
+        
 
         if (!$request->user()) {
             // Define only public routes
@@ -65,6 +66,7 @@ class HandleInertiaRequests extends Middleware
                 ARRAY_FILTER_USE_KEY
             );
         }
+     
         return [
             ...parent::share($request),
             'name' => config('app.name'),

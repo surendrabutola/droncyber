@@ -25,7 +25,7 @@ export default function Service({page}:any) {
     })
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
-        post(route('cms.update', page.id))
+        post ('/cms/'+page.id)
     }
    
     

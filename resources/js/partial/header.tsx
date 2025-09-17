@@ -79,7 +79,12 @@ export default function Header() {
                         >
                             Services
                         </Link>
-
+                         <Link
+                            href='/pages/teams'
+                            className={`text-base ${isActive('/pages/teams') ? 'font-semibold text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
+                        >
+                            Teams
+                        </Link>
                         <Link
                             href={route('contactus')}
                             className={`text-base ${isActive('/contact') ? 'font-semibold text-yellow-600' : 'text-gray-700 hover:text-yellow-600'}`}
@@ -136,6 +141,9 @@ export default function Header() {
 
                     <Link href="/pages/services" className="block text-gray-700">
                         Services
+                    </Link>
+                    <Link href="/pages/teams" className="block text-gray-700">
+                        Teams
                     </Link>
                     <Link href={route('contactus')} className="block text-gray-700">
                         Contact us

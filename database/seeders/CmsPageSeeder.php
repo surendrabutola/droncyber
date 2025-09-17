@@ -273,8 +273,8 @@ class CmsPageSeeder extends Seeder
                             <p class="text-zinc-600 text-base mb-10 w-full">Get real-time notifications, critical alerts, and important policy updates from CERT Uttarakhand. Whether you`re an IT officer, a public user, or a cybersecurity stakeholder, this section ensures you`re always informed about potential threats, official releases, and scheduled system updates.</p>',
             ],
             [
-                'title' => 'Who’s Who',
-                'url' => 'who-is-who',
+                'title' => 'Teams',
+                'url' => 'teams',
                 'content' => '<div class="py-10">
                                     <div class="max-w-7xl mx-auto">
                                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
